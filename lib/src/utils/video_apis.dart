@@ -54,7 +54,7 @@ class VideoApis {
               (item['quality'] as String?)?.split('p').first ?? '0',
             ),
             // url: '$firstUrlPiece/sep/video/$urlId/$lastUrlPiece',
-            url: 'cdnVideoUrl'
+            url: cdnVideoUrl,
           ),
         );
       }
